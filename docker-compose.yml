@@ -8,7 +8,7 @@ services:
       - "5000:5000"
     environment:
       - FLASK_ENV=development
-      - OPENAI_API_KEY=${b0d83755baf84755a606c17b1ae08d1e}
+      - OPENAI_API_KEY=${key}
     volumes:
       - ./visualx-backend:/app
     working_dir: /app
